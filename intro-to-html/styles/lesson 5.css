@@ -1,0 +1,54 @@
+.tahoma-font {
+    font-family: tahoma;
+    font-weight: bold;
+    margin-bottom: 100px;
+  }
+
+  .deal {
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .deadline {
+    font-family: Arial;
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 100px;
+  }
+
+  .course-intro {
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .begginer-to-pro {
+    font-family: Verdana;
+    color: gray;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .course-info {
+    font-family: Verdana;
+    width: 300px;
+  }
+
+  .get-started {
+    font-family: Verdana;
+    background-color: green;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    }
+
+    .learn {
+
+    }

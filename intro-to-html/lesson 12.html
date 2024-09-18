@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lesson 12</title>
+    <style>
+      .flexbox {
+        display: flex;
+        margin-bottom: 100px;
+      }
+
+      .lightblue {
+        background-color: lightblue;
+      }
+
+      .lightpink {
+        background-color: lightpink;
+      }
+
+      .left {
+        width: 200px;
+        background-color: lightblue;
+      }
+
+      .right {
+        width: 75px;
+        background-color: lightpink;
+      }
+
+      .flexbox1 {
+        display: flex;
+        margin-bottom: 100px;
+      }
+
+      .left1 {
+        width: 50px;
+      }
+
+      .middle1 {
+        flex: 1;
+      }
+
+      .right {
+        width: 75px;
+      }
+
+      .flexbox2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+      }
+
+      .flexbox3 {
+        display: flex;
+        height: 50px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: gray;
+        align-items: center;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="lightblue left">
+        200px
+      </div>
+      <div class="lightpink right">
+        75px
+      </div>
+    </div>
+
+    <div class="flexbox1">
+      <div class="lightblue left1">
+       50px
+      </div>
+      <div class="lightpink middle1">flex:1</div>
+      <div class="lightblue right1">
+        75px
+      </div>
+    </div>
+
+    <div class="flexbox">
+      <div class="lightblue left">
+        200px
+      </div>
+      <div class="lightpink right">
+        75px
+      </div>
+    </div>
+
+    <div class="flexbox2">
+      <div class="lightpink item1">
+       item1
+      </div>
+      <div class="lightpink item2">
+        item2</div>
+      <div class="lightpink item3">
+        item3
+      </div>
+      <div class="lightpink item4">
+        item4
+      </div>
+    </div>
+
+    <div class="flexbox3">
+      <div class="lightpink">
+       item1
+      </div>
+      <div class="lightpink">
+        item2
+        </div>
+  </body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>challenge13f</title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      .tweet {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      
+      .left-section {
+        margin-right: 10px;
+      }
+    
+      .twitter-icon {
+        height: 60px;
+        width: 60px;
+        vertical-align: top;
+        border-radius: 30px;
+        object-fit: cover;
+      }
+
+      .right-section {
+        flex: 1;
+      }
+      .tweet-info {
+        display: flex;
+        margin-bottom: 10px;
+      }
+      
+      .name {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      .tag {
+        color: gray;
+      }
+
+      .tweet-text {
+        margin-bottom: 10px;
+        line-height: 20px;
+      }
+      .link {
+        display: flex;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 10px;
+        width:350px;
+        border-color: gray;
+        overflow: hidden;
+        
+      }
+
+      .youtube-img {
+        background-color: rgb(197, 197, 197);
+        height: 80px;
+        width: 100px;
+        border-radius: 10px;
+    
+      }
+
+      .youtube-info {
+        background-color: white;
+        margin-left: -10px;
+        flex: 1;
+        padding-left: 10px;
+        padding-top: 10px;
+        
+      }
+
+      .youtube-url {
+        font-size: 14px;
+        color: gray;
+        margin-bottom: 5px;
+      }
+      .youtube-title {
+        line-height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet">
+      <div class="left-section">
+        <img class="twitter-icon" src="imgfiles/sparkle.webp">
+      </div>  
+      <div class="right-section">
+        <div class="tweet-info">
+          <div class="name">supersimple.dev</div>
+          <div class="tag">@SuperSimpleDev</div>
+        </div>
+        <div class="tweet-text">What is backend web development? A complete overview.
+          New video is up!
+        </div>
+        <div class="link">
+          <div class="youtube-img">
+            
+          </div>
+          <div class="youtube-info">
+            <div class="youtube-url">youtube.com</div>
+            <div class="youtube-title">Backend web development - a complete overview(2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lesson 13</title>
+    <style>
+      .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100px;
+        width: 300px;
+        margin-bottom: 100px;
+      }
+
+      .left-section {
+        background-color: lightpink;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .item1 {
+        background-color: black;
+        color: white;
+
+      }
+
+      .right-section {
+        background-color: lightblue;
+        width: 200px;
+        height: 100px;
+      }
+
+      .row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .row2-content {
+        background-color: black;
+        color: white;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <p class="item1">item1</p>
+      </div>
+      <div class="right-section">
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="left-section">
+      </div>
+      <div class="right-section">
+        <div>row1</div>
+        <div class="row2">
+          <div class="row2-content">row2</div>
+          <div class="row2-content">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
